@@ -1,6 +1,6 @@
 <?php 
 	
-	echo 'Hallo World';
+	$mesasge = 'hello world';
  ?>
 
 <!DOCTYPE>
@@ -9,6 +9,6 @@
  	<title>first app</title>
  </head>
  <body>
- 	<h1><?php echo 'hello world'; ?></h1>
+ 	<h1><?php echo $mesasge; ?></h1>
  </body>
 </html>
