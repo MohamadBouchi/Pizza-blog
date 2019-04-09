@@ -1,5 +1,6 @@
 <?php 
 	
+	define('MESSAGE', 'Hello World');
 	$mesasge = 'hello world';
  ?>
 
@@ -9,6 +10,6 @@
  	<title>first app</title>
  </head>
  <body>
- 	<h1><?php echo $mesasge; ?></h1>
+ 	<h1><?php echo $MESSAGE; ?></h1>
  </body>
 </html>
